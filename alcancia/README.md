@@ -11,9 +11,9 @@ Hecha en Flask
     ```
 - Inicializar la base de datos SQLite
     ```
-    uv run -- flask initdb
+     uv run python -m flask initdb
     ```
 - Correr aplicación Flask en modo debug
     ```
-    uv run -- flask run --debug
+    uv run python -m flask run --debug
     ```
